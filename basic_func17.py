@@ -1,3 +1,4 @@
+from math import pi
 def main():
     '''return the value of pi
     
@@ -7,6 +8,6 @@ def main():
     Returns:
         float: the value of pi.
     '''
-    from math import pi
+  
     return pi
 print(main())

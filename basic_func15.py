@@ -8,7 +8,7 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return (a/b-int(a/b))*b
+    return a%b
 a=23
 b=5
-print(int(main(a,b)))
+print(main(a,b))
