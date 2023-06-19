@@ -8,4 +8,7 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return
+    return abs(a-b)
+a=4
+b=11
+print(main(a,b))
